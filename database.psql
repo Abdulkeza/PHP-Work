@@ -1,0 +1,8 @@
+CREATE DATABASE registration
+
+CREATE TABLE workers(
+    id INT PRIMARY KEY,
+    firstname VARCHAR(60) NOT NULL,
+    lastname VARCHAR(60),
+    address VARCHAR(50)
+)
